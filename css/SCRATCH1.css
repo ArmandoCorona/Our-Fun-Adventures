@@ -1,0 +1,67 @@
+.common{
+    text-align: center;
+    font-family:unset;
+    background-color: blueviolet;
+    color:azure
+}
+.header{
+    background-color: rgb(125, 135, 95);
+    height: 100px;
+    line-height: 100px;
+}
+.mainbody{
+    background-color: rgb(138, 133, 83);
+}
+.footer{
+    position: fixed;
+    background-color:beige;
+    color:black;
+    bottom: 0%;
+    right: 5px;
+    left: 5px;
+    height: 20px;
+    line-height:20px;
+
+}
+nav{
+    background-color: rgba(188, 194, 126, 0.55);
+    padding: 10px;
+}
+
+img{
+    Display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centeredList{
+    padding-left: 0;
+    list-style-position:inside;
+}
+.video{
+    background-color: rgb(138, 133, 83);
+    padding: 10px;
+    color:azure;
+    text-align: center;
+
+}
+    /* Responsive Tableau embed */
+.tableau{
+ color: rgb(138, 133, 83);
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding-bottom: 56.25%; /* 16:9 aspect */
+  height: 0;
+  overflow: hidden;
+}
+.tableau iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
